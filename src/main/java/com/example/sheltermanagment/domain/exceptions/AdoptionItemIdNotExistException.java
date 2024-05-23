@@ -1,2 +1,4 @@
-package com.example.sheltermanagment.domain.exceptions;public class AdoptionItemIdNotExistException {
+package com.example.sheltermanagment.domain.exceptions;
+
+public class AdoptionItemIdNotExistException extends RuntimeException{
 }
